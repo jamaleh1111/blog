@@ -1,0 +1,23 @@
+<form action="/posts" method="post">
+	<% if @post.errors.any? %> 
+		<div id="errors">
+			<h2><%= pluralize(@post.errors.count, "error") %> prevented this post from saving</h2>
+			<ul>
+				<% @post.errors.full_messages.each do |msg| %>
+					<li><%= msg %></li>
+				<% end %>
+			</ul>
+		</div>
+	<% end %> 
+	<input type='hidden' name='authenticity_token' value='<%= form_authenticity_token %>'>
+	<label for="post[title]">Title</label>
+	<br>
+	<input type="text" name="post[title]">
+	<br>
+	<br>
+	<label for='post[body]'>Body</label>
+	<br>
+	<textarea name="post[body]"></textarea>
+	<br>
+	<input type="submit" value"post">
+</form>
