@@ -1,5 +1,5 @@
 current directory: /Users/benwong/Desktop/ruby/rails_projects/blog2/vendor/bundle/ruby/2.0.0/gems/pg-0.18.4/ext
-/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/bin/ruby -r ./siteconf20160125-5028-132t1yz.rb extconf.rb --with-pg-config=/Applications/Postgres.app/Contents/MacOS/bin/pg_config
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/bin/ruby -r ./siteconf20160125-63390-7k7mwa.rb extconf.rb --with-pg-config=/Applications/Postgres.app/Contents/MacOS/bin/pg_config
 Using config values from /Applications/Postgres.app/Contents/MacOS/bin/pg_config
 sh: /Applications/Postgres.app/Contents/MacOS/bin/pg_config: No such file or directory
 sh: /Applications/Postgres.app/Contents/MacOS/bin/pg_config: No such file or directory
