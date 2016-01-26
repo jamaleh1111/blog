@@ -1,0 +1,9 @@
+/Users/benwong/.rvm/rubies/ruby-2.2.1/bin/ruby -r ./siteconf20160125-11069-vgpa5r.rb extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+make "DESTDIR=" install
