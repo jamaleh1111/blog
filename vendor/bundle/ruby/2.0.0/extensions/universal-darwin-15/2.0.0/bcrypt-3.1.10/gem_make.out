@@ -1,0 +1,20 @@
+current directory: /Users/benwong/Desktop/ruby/rails_projects/blog2/vendor/bundle/ruby/2.0.0/gems/bcrypt-3.1.10/ext/mri
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/bin/ruby -r ./siteconf20160125-970-ma2951.rb extconf.rb
+creating Makefile
+
+current directory: /Users/benwong/Desktop/ruby/rails_projects/blog2/vendor/bundle/ruby/2.0.0/gems/bcrypt-3.1.10/ext/mri
+make "DESTDIR=" clean
+
+current directory: /Users/benwong/Desktop/ruby/rails_projects/blog2/vendor/bundle/ruby/2.0.0/gems/bcrypt-3.1.10/ext/mri
+make "DESTDIR="
+compiling bcrypt_ext.c
+compiling crypt.c
+compiling crypt_blowfish.c
+compiling crypt_gensalt.c
+compiling wrapper.c
+linking shared-object bcrypt_ext.bundle
+
+current directory: /Users/benwong/Desktop/ruby/rails_projects/blog2/vendor/bundle/ruby/2.0.0/gems/bcrypt-3.1.10/ext/mri
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bcrypt_ext.bundle ./.gem.20160125-970-bt1ohj
+installing default bcrypt_ext libraries
